@@ -1,18 +1,13 @@
 /* Customization */
 /* Premier Essai Orienté Mobile First */
-
 @font-face {
-    font-family: "Poppins-Regular";
-    src: url("../Template 1/Poppins/Poppins-Regular.ttf");
-}
-@font-face {
-    font-family: "Poppins-Black";
-    src: url("../Template 1/Poppins/Poppins-Black.ttf");
+  font-family: 'Poppins';
+  src: url('https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfedw.woff2') format('woff2');
 }
 
 :root{
-    --police-perso: "Poppins-Regular", Georgia, 'Times New Roman', Times, serif;
-    --police-sec: "Poppins-Black", Georgia, 'Times New Roman', Times, serif;
+    --police-perso: 'Poppins', Georgia, 'Times New Roman', Times, serif;
+    --police-sec: 'Poppins-Black', Georgia, 'Times New Roman', Times, serif;
     --btn-radius-perso: 12px;
     --clr-primary: #FFFFFF;
     --clr-sec: #FFFFFF80;
